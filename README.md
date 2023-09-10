@@ -75,6 +75,10 @@ After completing these steps, you should have MongoDB and Mongo Express up and r
 
 Remember to periodically check for updates to MongoDB and Mongo Express Docker images and update your deployment configurations accordingly.
 
+## Security Note
+
+Please ensure that sensitive information, such as the `mongodb-secret.yaml` file, is not accidentally committed to your Git repository. Add it to your `.gitignore` file to keep your secrets secure.
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
